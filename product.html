@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Product</title>
+
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1>single product</h1>
-    <a href="index.html">home</a>
+    <a href="index.html" class="btn home-link"> back home</a>
+
+    <section class="product">
+        <div class="product-wrapper">
+            <img src="./couch.jpg" alt="img" class="img">
+            <div class="product-info">
+                <h3>title</h3>
+                <h5>company</h5>
+                <span>$price</span>
+                <div class="colors">
+                    <span class="product-color"></span>
+                    <span class="product-color" style="background: red;"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magni?
+                    </p>
+                    <button class="btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
+<script src="./product.js"></script>
 
 </html>
