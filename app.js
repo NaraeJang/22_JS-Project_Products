@@ -29,7 +29,7 @@ const displayProducts = (list) => {
       const formatPrice = price / 100;
 
       return `<!-- single product -->
-              <a href="product.html" class="single-product">
+              <a href="product.html?id=${id}" class="single-product">
                 <img src="${img}" alt="${title}" class="single-product-img img">
                 <footer>
                   <h5 class="name">${title}</h5>
